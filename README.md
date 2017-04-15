@@ -1,4 +1,4 @@
-# timebank_dense_with_word_embeddings
+# word embeddings for TimeBank 1.2
 Dataset of word embeddings for the events in TimeBank 1.2
 
 To use word embeddings for temporal classification, you would need access to TimeBank 1.2, TimeBank-Dense and Word2Vec pretrained vectors. 
