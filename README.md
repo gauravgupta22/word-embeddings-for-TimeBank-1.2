@@ -14,17 +14,17 @@ https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/
 
 This dataset will greatly reduce effort as it combines the information from these three.
 
-TimeBank 1.2 contains:
-Total EVENT tags 7935
-Unique EVENT tags 764
-Out of these 764 unique tags , 117 tags are not found in Word2Vec pre-trained vectors (most of them are numbers or words joined by '-' e.g. 'high-flying')
-Hence the dataset contains word embeddings for 764-117 = 647 EVENTs
+### TimeBank 1.2 contains:<br>
+Total EVENT tags 7935<br>
+Unique EVENT tags 764<br>
+Out of these 764 unique tags , 117 tags are not found in Word2Vec pre-trained vectors (most of them are numbers or words joined by '-' e.g. 'high-flying')<br>
+Hence this dataset contains word embeddings for 764-117 = 647 EVENTs<br>
 
-Structure:
-dataset contains 647 rows. Each row has 303 columns.
-1st col: timebank-filename
-2nd col: event-id
-3rd col: event-word
+### Structure:<br>
+Dataset contains 647 rows. Each row has 303 columns.<br>
+1st col: timebank-filename<br>
+2nd col: event-id<br>
+3rd col: event-word<br>
 4-303 col: event-word-vector (dimension 300)
 
 
